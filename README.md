@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# LUBIX-PAGE 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Servicio Nacional de Aprendizaje - SENA
+**Centro de Formación:** [Nombre del Centro, ej: Centro de Electricidad, Electrónica y Telecomunicaciones]  
+**Programa de Formación:** ADSO (Análisis y Desarrollo de Software) / [O el nombre de tu programa]  
+**Ficha:** [Número de ficha]  
+**Desarrollador(es):** [Tu Nombre Completo]  
 
-## Get started
+---
 
-1. Install dependencies
+## 📄 Descripción del Proyecto
+`LUBIX-PAGE` es una aplicación móvil desarrollada con **React Native** y **Expo** utilizando **TypeScript**. El proyecto está estructurado siguiendo las mejores prácticas de desarrollo modular e incluye gestión de estados globales, consumo de APIs y componentes reutilizables.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🛠️ Tecnologías Utilizadas
+* **React Native:** Framework para el desarrollo de la aplicación móvil nativa.
+* **Expo:** Plataforma y conjunto de herramientas para agilizar el desarrollo y pruebas.
+* **TypeScript:** Superset de JavaScript que añade tipado estático al proyecto.
+* **Expo Router:** (Si usas la carpeta `app` para las rutas de navegación).
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📂 Estructura del Proyecto
+De acuerdo con la arquitectura implementada en el entorno de desarrollo, el proyecto se organiza de la siguiente manera:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* `api/`: Servicios y configuraciones para el consumo de datos externos (Endpoints).
+* `app/`: Directorio principal de pantallas y enrutamiento de la aplicación (Expo Router).
+* `assets/`: Recursos estáticos como imágenes, fuentes y logotipos.
+* `components/`: Componentes de interfaz de usuario (UI) reutilizables en toda la app.
+* `constants/`: Valores fijos del sistema (Colores del tema, configuraciones globales).
+* `context/`: Gestión de estado global de la aplicación (Autenticación, datos compartidos).
+* `hooks/`: Hooks personalizados para separar la lógica de negocio de la vista.
+* `types/`: Definición de interfaces y tipos de TypeScript para un código más seguro.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Requisitos previos e Instalación
 
-When you're ready, run:
+Para ejecutar este proyecto de manera local, asegúrate de tener instalado **Node.js** en tu equipo y la aplicación **Expo Go** en tu dispositivo móvil (disponible en Play Store / App Store).
 
+### 1. Clonar el repositorio
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+cd LUBIX-PAGE
